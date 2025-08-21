@@ -8,11 +8,11 @@ const Mission = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Our Mission
+            Our Sacred Mission
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We believe that no child should have to squat over a pit of waste at school or at home 
-            while enduring the shame of an unsafe, unsanitary toilet.
+            We believe that dignity is a fundamental human right. No child should face shame, 
+            danger, or disease simply because they lack access to basic sanitation.
           </p>
         </div>
 
@@ -20,25 +20,22 @@ const Mission = () => {
           <div className="space-y-6">
             <div className="bg-accent/50 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-foreground mb-3">
-                Matt 25:35–36 (NIV)
+                "For I was hungry and you gave me something to eat, I was thirsty and you gave me something to drink..."
               </h3>
-              <p className="text-muted-foreground text-sm mb-3">
-                "For I was hungry and you gave me something to eat... I was a stranger and you invited me in... I needed clothes and you clothed me"
-              </p>
-              <p className="text-xs text-muted-foreground italic">
-                "I needed a clean toilet, and you gave me one." (Adapted)
+              <p className="text-muted-foreground text-sm">
+                Matthew 25:35-36 (NIV)
               </p>
             </div>
             
             <p className="text-foreground leading-relaxed">
-              No mother should worry that her daughter's safety is at risk simply by needing to relieve herself. 
-              No GrandPa should suffer humiliation because there's no safe place to go.
+              We believe that no child should have to squat over a pit of waste at school or at home 
+              while enduring the shame of an unsafe, unsanitary toilet. No mother should worry that 
+              her daughter's safety is at risk simply by needing to relieve herself.
             </p>
             
             <p className="text-foreground leading-relaxed">
-              At PoopPotty, we honor one of the most basic human needs—with dignity, hygiene, and love, 
-              in Jesus's name. We seek to provide clean, private, and safe sanitation to families living in crisis—because 
-              every person deserves to be treated with honor, even in their most vulnerable moments.
+              No grandparent should suffer humiliation because there's no safe place to go. 
+              Every person deserves dignity, safety, and health through access to proper sanitation.
             </p>
           </div>
 

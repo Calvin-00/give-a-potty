@@ -9,12 +9,12 @@ const Hero = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              PoopPotty — Because Everyone Deserves a{" "}
+              Because Everyone Deserves a{" "}
               <span className="text-primary">Dignified Place</span> to Poop
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe that no child should have to squat over a pit of waste at school or at home 
-              while enduring the shame of an unsafe, unsanitary toilet.
+              No child should face shame or danger simply by needing to relieve themselves. 
+              Help us build safe, clean sanitation facilities that restore dignity and protect health.
             </p>
           </div>
 
