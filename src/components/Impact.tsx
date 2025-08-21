@@ -10,10 +10,10 @@ const Impact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Real Stories, Real Impact
+            Our Vision
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            See how your donations transform lives and restore dignity to communities around the world.
+            Imagine the reality that hundreds face every single day in Haiti, Sudan, the Democratic Republic of Congo, and war-torn regions.
           </p>
         </div>
 
@@ -53,45 +53,45 @@ const Impact = () => {
           </Card>
         </div>
 
-        {/* Impact Story */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <img 
-              src={schoolImage} 
-              alt="Children celebrating at their school with new sanitation facilities" 
-              className="rounded-2xl shadow-[var(--shadow-card)] w-full h-auto"
-            />
-          </div>
-          
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                Transforming Education Through Dignity
-              </h3>
-              <p className="text-foreground leading-relaxed mb-4">
-                At Mwanza Primary School in Tanzania, 400 students shared just two broken pit latrines. 
-                Girls often skipped school during menstruation, and the unsanitary conditions spread disease.
-              </p>
-              <p className="text-foreground leading-relaxed">
-                Thanks to donors like you, we built six modern toilet facilities with proper ventilation, 
-                handwashing stations, and separate facilities for girls. Attendance increased by 40%, 
-                and not a single girl has missed school for sanitation-related reasons since.
-              </p>
-            </div>
-            
-            <Card className="bg-primary/5 border-primary/20">
-              <CardContent className="p-6">
-                <Quote className="w-8 h-8 text-primary mb-4" />
-                <blockquote className="text-foreground font-medium mb-4">
-                  "Now I can focus on my studies instead of worrying about where I can go safely. 
-                  These new facilities gave me back my dignity and my education."
-                </blockquote>
-                <div className="text-sm text-muted-foreground">
-                  — Maria, 14, Student at Mwanza Primary School
+        {/* Vision Story */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <Card className="shadow-[var(--shadow-card)] bg-gradient-to-r from-background to-accent/30">
+            <CardContent className="p-8">
+              <div className="space-y-6 text-foreground">
+                <p className="text-lg leading-relaxed">
+                  You wake up. Your stomach churns. You rush to the bathroom—but there is none. There's no toilet anywhere. 
+                  Not for you. Not for your daughter or son. Not for your grandmother or grandfather.
+                </p>
+                <p className="text-lg leading-relaxed">
+                  And if there is one, it's filled with filth, has no water, no privacy. Imagine standing in a line, 
+                  praying no one watches you while you poop. Imagine the stench, the sickness, the shame...
+                </p>
+                <p className="text-lg leading-relaxed">
+                  And when you finally finish, there's no water, no toilet paper, and you stink for the rest of the day. 
+                  Imagine... Now imagine living like that every single day.
+                </p>
+                <div className="bg-primary/10 rounded-lg p-6 border-l-4 border-primary">
+                  <p className="text-lg font-medium text-foreground">
+                    This is reality for <strong>hundreds</strong> in Haiti, Sudan, the Democratic Republic of Congo, 
+                    and war-torn regions. Earthquakes, hurricanes, and violence have destroyed sanitation systems. 
+                    Families are left with nothing but disease, shame, and desperation.
+                  </p>
                 </div>
-              </CardContent>
-            </Card>
-          </div>
+                <div className="text-center py-6">
+                  <p className="text-xl font-bold text-primary mb-4">
+                    But not if we do something. Together. Today.
+                  </p>
+                  <p className="text-lg text-foreground">
+                    Now, imagine a world where no child, no mother, no father has to live with shame, sickness, 
+                    and exposure of defecating in the open.
+                  </p>
+                  <p className="text-xl font-bold text-primary mt-4">
+                    PoopPotty desires to return dignity to entire communities.
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
 
         {/* Testimonials */}
